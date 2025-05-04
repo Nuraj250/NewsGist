@@ -1,0 +1,7 @@
+@tailwind utilities;
+@tailwind utilities;
+
+/* Custom global styles if needed */
+body {
+  font-family: 'Inter', sans-serif;
+}

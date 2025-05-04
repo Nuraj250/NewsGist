@@ -1,0 +1,61 @@
+# ---- Python (backend) ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.venv/
+ENV/
+Pipfile.lock
+
+# ---- Node.js / Next.js (frontend) ----
+node_modules/
+.next/
+out/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+bun.lockb
+
+# ---- Environment Variables ----
+*.env
+*.env.local
+*.env.production
+*.env.development
+.env.*
+
+# ---- Mac / Windows OS Trash ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Logs ----
+*.log
+logs/
+*.log.*
+
+# ---- Docker ----
+*.dockerfile
+docker-compose.override.yml
+
+# ---- VSCode (optional) ----
+.vscode/
+
+# ---- Other ----
+coverage/
+.cache/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# ---- Public static files (if needed) ----
+/frontend/public/temp/
